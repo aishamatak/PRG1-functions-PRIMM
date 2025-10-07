@@ -53,4 +53,29 @@ if any(char in string.punctuation for char in password):
 else: 
     feedback.append("password must contain punctuation")
 
-    
+
+import string
+
+for char in password:
+    if char in string.punctuation:
+    return true 
+
+special_chars = ["!", "@", "#", "$", "%", "^", "&", "*"]
+
+word = passwords
+
+for char in word: 
+    if char is special_chars:
+        print("valid") 
+        break 
+    else: 
+        print("not a valid password")
+
+# strength rating
+if score >= 6:
+    print("Strong password")
+elif score >= 3:
+    print ("Medium password") 
+else: 
+    print ("Weak password") 
+

@@ -37,3 +37,25 @@ print("Test Results:")
 print(analyse_scores(test_scores))
 print("\nEmpty List Test:")
 print(analyse_scores(empty_list))
+
+
+def percentages(scores): 
+    for score in range scores: 
+        percent = (score / 100) * 100 
+    return percent [] 
+
+scores = []
+percent = percentages(scores) 
+
+if percent >= 80:
+    print ("A")
+elif percent >= 60:
+    print ("B")
+elif percent >= 40:
+    print ("C")
+else: 
+    print ("F")
+
+# sales data analysis 
+def sales_data_analysis(total_revenue, average_sale, best_month, worst_month): 
+    

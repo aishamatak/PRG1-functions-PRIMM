@@ -17,3 +17,13 @@ def calculate_total(price, tax_rate=0.2, discount=0):
     tip = total * 1.12 
     return tip 
 
+
+# grading system 
+def calculate_grade(homework_score, test_score): 
+    homework_weight = homework_score * 7 
+    test_weight = test_score * 3
+    total_weight = homework_weight + test_weight
+    return total_weight
+
+# main 
+# if score is above --- else ... 

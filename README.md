@@ -61,7 +61,7 @@ print(f"£{calculate_total(100, 0.08, 10):.2f}")
 **Investigate:**
 - What is `tax_rate=0.2` doing?
 - What happens if you don't provide a discount?
-- What does `:.2f` do in the print statements?
+- What does `:.2f` do in the print statements? 
 
 **Modify:**
 - Add a tip parameter with a default of 12%

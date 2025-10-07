@@ -32,3 +32,25 @@ for pwd in passwords:
     for issue in issues:
         print(f"  - {issue}")
     print()
+
+
+
+# Validating special characters 
+if any(char.isalpha() for char in password):
+    score += 1 
+else:
+    feedback.append("Password must contain letters")
+if any(char.isdigit() for char in password):
+    score += 1 
+else: 
+    feedback.append("Password must contain numbers")
+if any(char.isalnum() for char in password):
+    score += 1 
+else: 
+    feedback.append("Password must contain numbers")
+if any(char in string.punctuation for char in password): 
+    score += 1 
+else: 
+    feedback.append("password must contain punctuation")
+
+    

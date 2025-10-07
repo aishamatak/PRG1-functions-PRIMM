@@ -58,7 +58,7 @@ import string
 
 for char in password:
     if char in string.punctuation:
-    return true 
+       print ("true") 
 
 special_chars = ["!", "@", "#", "$", "%", "^", "&", "*"]
 

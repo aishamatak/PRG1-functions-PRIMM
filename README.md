@@ -180,7 +180,7 @@ print(analyse_scores(empty_list))
 
 **Run:** Execute and verify your predictions.
 
-**Investigate:**
+**Investigate:**   
 - How does the grade counting logic work?
 - Why check `if not scores:` at the beginning?
 - What does `round(average, 2)` do?
